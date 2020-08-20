@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class TrabajadorService implements ITrabajadorService{
+public class TrabajadorService implements ITrabajadorService {
     private final TrabajadorDAO trabajadorDAO;
 
     public TrabajadorService(TrabajadorDAO trabajadorDAO) {

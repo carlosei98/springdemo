@@ -20,4 +20,5 @@ public class Trabajador implements Serializable {
         this.apellidos = apellidos;
         this.dni = dni;
     }
+    public Trabajador () {}
 }
