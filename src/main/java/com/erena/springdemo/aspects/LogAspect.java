@@ -1,6 +1,5 @@
 package com.erena.springdemo.aspects;
 
-import com.erena.springdemo.model.entities.Trabajador;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -20,7 +19,7 @@ public class LogAspect {
                 log.info("Se va a insertar el trabajador: " + joinPoint.getArgs()[0].toString());
                 break;
             case "getTrabajadores":
-                log.info("Se van a obtener todos los trabajadores");
+                log.info("Se van a obtener los trabajadores");
                 break;
         }
         try {

@@ -2,7 +2,6 @@ package com.erena.springdemo.model.services;
 
 import com.erena.springdemo.model.entities.Trabajador;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
